@@ -1,0 +1,41 @@
+{
+  "name": "swagger-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server for exploring Swagger/OpenAPI specifications",
+  "main": "build/index.js",
+  "bin": {
+    "swagger-mcp-server": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js",
+    "dev": "tsc && node build/index.js",
+    "start": "node build/index.js",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@apidevtools/swagger-parser": "^10.1.0",
+    "openapi-types": "^12.1.3",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "swagger",
+    "openapi",
+    "api",
+    "documentation"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "files": [
+    "build/"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
