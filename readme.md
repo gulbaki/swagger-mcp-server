@@ -2,14 +2,6 @@
 
 A Model Context Protocol (MCP) server that allows LLMs to explore and interact with Swagger/OpenAPI specifications. This server provides tools and resources for loading API specifications, browsing endpoints, and getting detailed information about API operations.
 
-## Features
-
-- **Load API Specifications**: Parse OpenAPI/Swagger specs from URLs or local files
-- **Browse Endpoints**: List and search through available API endpoints
-- **Detailed Endpoint Information**: Get comprehensive details about specific endpoints including parameters, request/response schemas, and examples
-- **Natural Language Summaries**: Generate human-readable descriptions of API endpoints
-- **Multiple API Support**: Load and manage multiple API specifications simultaneously
-
 ## Installation
 
 1. Clone or create the project directory
