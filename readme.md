@@ -113,39 +113,6 @@ To use this server with Claude Desktop, add the following to your `claude_deskto
 
 Replace `/path/to/your/swagger-mcp-server` with the actual path to your project directory.
 
-## Example Workflow
-
-1. **Load an API specification:**
-   ```
-   Use the load_api tool to load the Swagger Petstore API:
-   - apiId: "petstore"
-   - source: "https://petstore.swagger.io/v2/swagger.json"
-   ```
-
-2. **Explore available endpoints:**
-   ```
-   Use the search_endpoints tool to find all pet-related endpoints:
-   - apiId: "petstore"
-   - pattern: "pet"
-   ```
-
-3. **Get detailed endpoint information:**
-   ```
-   Use get_endpoint_details to learn about the GET /pet/{petId} endpoint:
-   - apiId: "petstore"
-   - method: "GET"
-   - path: "/pet/{petId}"
-   - natural: true
-   ```
-
-## Supported API Formats
-
-- OpenAPI 3.0.x
-- OpenAPI 3.1.x
-- Swagger 2.0
-
-The server automatically handles dereferencing of JSON schemas and resolves `$ref` references.
-
 
 ## License
 
